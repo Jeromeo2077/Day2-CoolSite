@@ -6,14 +6,17 @@
 }
 
 header {
-  display: flex;
   background-color: var(--darkblue);
+}
+
+displayFlex {
+  display: flex;
 }
 
 headerBtns {
   justify-content: center;
-  color: unset;
-  text-decoration: unset;
+  background-color: unset;
+  text-decoration: none;
 }
 
 body {
