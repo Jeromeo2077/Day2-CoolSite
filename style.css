@@ -7,21 +7,23 @@
 
 header {
   background-color: var(--darkblue);
+  color: var(--white);
+  padding: 1em;
 }
 
-displayFlex {
+.displayFlex {
   display: flex;
 }
 
-headerBtns {
-  justify-content: center;
+.headerBtns {
   background-color: unset;
   text-decoration: none;
 }
 
-body {
-
+main {
   background-color: var(--darkblue);
+  color: var(--white);
+  padding: 1em;
 }
 
 h4 {
