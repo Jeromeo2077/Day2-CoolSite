@@ -30,6 +30,10 @@ header {
   margin: 50%
 }
 
+.width-50 {
+  width: 50%;
+}
+
 main {
   background-color: var(--darkblue);
   color: var(--white);
