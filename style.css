@@ -8,17 +8,21 @@
 Body {
   font-family: Arial, Helvetica, sans-serif;
   margin: unset;
-  justify-content: space-between;
 }
 
 header {
   background-color: var(--darkblue);
-  color: var(--white);
   padding: 1em;
 }
 
-.displayFlex {
+a.whiteText {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.displayFlexHeader {
   display: flex;
+  justify-content: end;
 }
 
 .headerBtns {
@@ -27,12 +31,21 @@ header {
 }
 
 .margin {
-  margin: 50%
+  margin: 50%;
+}
+
+.ms-10vw {
+  margin-left: 10vw;
 }
 
 .width-50 {
   width: 50%;
 }
+
+.justify-Center {
+  justify-content: center;
+}
+
 
 main {
   background-color: var(--darkblue);
@@ -45,15 +58,36 @@ h4 {
 }
 
 h1 {
-  color: var(--white)
+  color: var(--white);
 }
 
 p {
-  color: var(--white)
+  color: var(--white);
+}
+
+.displayFlexMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.width-100 {
+  width: 100%;
 }
 
 footer {
   background-color: var(--white);
   color: black;
-  padding: 1em
+  padding: 1em;
+}
+
+.displayFlexFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a.blueText {
+  color: var(--blue);
+  text-decoration: none;
 }
