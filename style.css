@@ -20,6 +20,10 @@ header {
   text-decoration: none;
 }
 
+.margin {
+  margin: 50%
+}
+
 main {
   background-color: var(--darkblue);
   color: var(--white);
@@ -36,4 +40,10 @@ h1 {
 
 p {
   color: var(--white)
+}
+
+footer {
+  background-color: var(--white);
+  color: black;
+  padding: 1em
 }
